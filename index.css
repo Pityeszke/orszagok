@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 h1{
     text-align: center;
 }
@@ -25,3 +26,32 @@ h1{
     padding: 5px;
     margin-bottom: 25px;
 }
+=======
+h1{
+    text-align: center;
+}
+.orszag_kartya{
+    border:1px solid #ccc;
+    border-radius:8px;
+    padding:12px;
+    width:220px;
+    background:#fff;
+    box-shadow: 1px 1px 5px 1px;
+}
+.fovaros{
+    font-weight: bold;
+}
+#orszagok{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+#kereso{
+      margin-left: 29.1%;
+    width:41%;
+    padding: 5px;
+    margin-bottom: 25px;
+}
+>>>>>>> 212f380a32db5adc4082a68f922a5bb0dffe05b5
