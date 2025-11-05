@@ -6,11 +6,11 @@ let orszagLista = [];
 
 function orszagKartya(orszag) {
     return `
-    <div style="border:1px solid #ccc; border-radius:8px; padding:12px; width:220px; background:#fff;">
+    <div class="orszag_kartya">
         <img src="${orszag.flags.svg}" alt="Zászló" style="width:100%; height:100px; object-fit:cover; border-radius:4px;">
         <h3>${orszag.name.common}</h3>
-        <p><strong>Főváros:</strong> ${orszag.capital ? orszag.capital[0] : 'Nincs adat'}</p>
-        <p><strong>Régió:</strong> ${orszag.region}</p>
+        <p class="fovaros">Főváros: ${orszag.capital ? orszag.capital[0] : 'Nincs adat'}</p>
+        <p>Régió: ${orszag.region}</p>
     </div>
     `;
 }
